@@ -5,8 +5,33 @@ body{
     
 }
 
+nav ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+    display: block;
+    float: right;
+    padding: 10px 30px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+.menu{
+    color: blue;
+    margin-right: 4%;
+    padding-bottom: 50px;
+}
+
 .clear-both{
     clear: both;
+}
+
+.top-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 h1{
@@ -105,7 +130,7 @@ section{
 
 
 span{
-    color: tomato;
+    color: #4f47cf;
 }
 
 .one-third-width h3{
@@ -158,6 +183,9 @@ span{
 }
 
 .education{
+    background-image: url(images/dream-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
     text-align: center;
     height: 220px;
 }
@@ -177,7 +205,7 @@ span{
 
 .one-third-width-education h3{
     font-size: 25px;
-    color: tomato;
+    color: #4f47cf;
 }
 
 .education-place{
