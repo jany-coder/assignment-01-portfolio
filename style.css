@@ -5,15 +5,24 @@ body{
     
 }
 
+.clear-both{
+    clear: both;
+}
+
 h1{
     font-size: 80px;
+    font-weight:500;
+}
+
+h2{
+    font-size: 48px;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #6C6C6C;
-    te
+    
 }
 
 .half-width p{
@@ -27,6 +36,10 @@ p{
     padding-left:2%;
 }
 
+.half-width img{
+    width: 100%;
+}
+
 .orange{
     color: #FF8367;
 }
@@ -35,12 +48,11 @@ p{
     margin-top: -80px;
 }
 
-.margin-top-50{
-    margin-top: -50px;
+
+section{
+    height: 500px;
+    padding-bottom: 200px;
 }
-
-
-
 
 
 .link-button{
@@ -53,3 +65,96 @@ p{
     border-radius: 5px;
     
 }
+
+
+.one-third-width{
+    width: 24%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 19px;
+    padding: 20px 20px;
+    height: 80%;
+}
+
+.one-third-width img{
+    width: 100%;
+    
+}
+
+.one-third-width p{
+    text-align: justify;
+    
+}
+
+.working-project{
+    background-color: #F8F9FC;
+    padding-bottom: 300px;
+}
+
+.working-project h2{
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+span{
+    color: tomato;
+}
+
+.one-third-width h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #363958;
+}
+
+.div-1{
+    width: 20%;
+    float: left;
+    padding-top: 225px;
+}
+
+.div-center{
+    width: 60%;
+    float: left;
+    height: 225px;
+}
+
+
+.image-button{
+    background-image: url(images/button-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 225px;
+}
+
+
+
+.image-button h3{
+    color: #ffffff;
+    font-size: 64px;
+    float: left;
+    padding-left: 70px;
+    padding-top: 10px;
+
+}
+
+
+.chat{
+    float: right;
+    padding: 100px 100px;
+}
+
+.chat .link-button{
+    padding: 20px 30px;
+}
+
+
+
+
+
+
+
